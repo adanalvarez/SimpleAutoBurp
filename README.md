@@ -63,7 +63,7 @@ SimpleAutoBurp.py /home/ec2-user/config.json
 This script can be scheduled to execute using crontab in *nix systems like this:
 
 ```
-0 2 * * * ec2-user /usr/bin/python3.7 /home/ec2-user/SimpleAutoBurp.py /home/ec2-user/config.json"
+0 2 * * * ec2-user /usr/bin/python3.7 /home/ec2-user/SimpleAutoBurp.py /home/ec2-user/config.json
 ```
 
 ## Output
