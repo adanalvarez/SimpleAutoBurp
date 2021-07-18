@@ -1,0 +1,25 @@
+{
+    "sites" : [{
+        "scanURL" : "https://test-xss.000webhostapp.com",
+        "project" : "/home/ec2-user/BurpSuitePro/2021-07-11-Test_1.burp",
+        "apikey" : "APIKEY"
+      },
+      {
+        "scanURL" : "http://test-xss.000webhostapp.com",
+        "project" : "/home/ec2-user/BurpSuitePro/2021-07-11-Test_1.burp",
+        "apikey" : "APIKEY"
+      }
+    ],
+    "burpConfigs" : [{
+        "memory" : "2048m",
+        "headless" : "true",
+        "java" : "/home/ec2-user/BurpSuitePro/jre/bin/java",
+        "burpJar" : "/home/ec2-user/BurpSuitePro/burpsuite_pro.jar",
+        "retry" : 5,
+        "logPath" : "/home/ec2-user/ScanOutput/",
+        "logfileName" : "SimpleAutoBurp",
+        "loglevel" : "debug",
+        "ScanOutput" : "/home/ec2-user/ScanOutput/"
+      }
+      ]
+}
